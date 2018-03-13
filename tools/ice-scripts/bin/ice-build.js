@@ -3,6 +3,7 @@
 'use strict';
 
 const program = require('commander');
+const checkSass = require('../lib/utils/check-sass');
 
 program.on('--help', () => {
   console.log('todo 帮助信息');
